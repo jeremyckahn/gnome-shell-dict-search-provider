@@ -89,11 +89,11 @@ function makeLaunchContext() {
   );
 }
 
-const ddgProvider: SearchProvider = {
+const dictProvider: SearchProvider = {
   appInfo: {
-    get_name: () => `DuckDuckGo`,
+    get_name: () => `Dictionary`,
     get_icon: () => gicon,
-    get_id: () => `duckduckgo-provider`,
+    get_id: () => `dict-provider`,
     should_show: () => true,
   },
 
@@ -164,13 +164,14 @@ function getOverviewSearchResult() {
 export function init() {}
 
 let instance: SearchProvider;
+
 export function enable() {
-  global.log(`Enabling DuckDuckGo IA Search Provider`);
-  instance = Object.create(ddgProvider);
+  global.log(`Enabling dict search provider`);
+  instance = Object.create(dictProvider);
   getOverviewSearchResult()._registerProvider(instance);
 }
 
 export function disable() {
-  global.log(`Disabling DuckDuckGo IA Search Provider`);
+  global.log(`Disabling dict search Provider`);
   getOverviewSearchResult()._unregisterProvider(instance);
 }
