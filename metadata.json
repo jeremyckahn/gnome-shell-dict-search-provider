@@ -1,9 +1,9 @@
 {
-    "name": "DuckDuckGo Search Provider",
+    "name": "dict search Provider",
     "shell-version": ["3.36", "3.38", "40.0", "41.0", "42.0", "42.5", "44.2"],
-    "uuid": "gnome-shell-duckduckgo-search-provider@keithcirkel.co.uk",
-    "settings-schema": "org.gnome.shell.extensions.duckduckgo-search-provider",
-    "description": "Add DuckDuckGo search suggestions to Gnome Shell Search",
-    "url": "https://github.com/keithamus/gnome-shell-duckduckgo-search-provider",
+    "uuid": "gnome-shell-dict-search-provider@keithcirkel.co.uk",
+    "settings-schema": "org.gnome.shell.extensions.dict-search-provider",
+    "description": "Add dict search suggestions to Gnome Shell Search",
+    "url": "https://github.com/jeremyckahn/gnome-shell-dict-search-provider",
     "version": 2
 }

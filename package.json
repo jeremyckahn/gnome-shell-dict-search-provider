@@ -1,7 +1,7 @@
 {
   "name": "gnome-shell-dict-search-provider",
   "version": "0.0.0",
-  "description": "This is a Search Provider for Gnome Shell, and it provides dict Search functionality.",
+  "description": "This is a Search Provider for Gnome Shell, and it provides dict search functionality.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "make compile"

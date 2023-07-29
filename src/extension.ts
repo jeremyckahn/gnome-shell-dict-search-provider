@@ -1,4 +1,3 @@
-//const App = imports.gi.Gio.DesktopAppInfo.new('DuckDuckGo')
 const { Gio, Soup } = imports.gi;
 const { main } = imports.ui;
 const Me = imports.misc.extensionUtils.getCurrentExtension();
