@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "This is a Search Provider for Gnome Shell, and it provides dict Search functionality.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "make compile"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jeremyckahn/gnome-shell-dict-search-provider/issues"
   },
-  "homepage": "https://github.com/jeremyckahn/gnome-shell-dict-search-provider#readme"
+  "homepage": "https://github.com/jeremyckahn/gnome-shell-dict-search-provider#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
 }
